@@ -1,22 +1,22 @@
-# Todo Agent
+# 📝 Todo Agent
 
 A sophisticated AI-powered todo list manager that helps you keep track of your tasks with natural language processing capabilities.
 
-## Features
+## ✨ Features
 
-- Natural language task management
-- Intelligent task categorization
-- Deadline tracking
-- Task status updates
-- User profile management
-- Persistent storage of tasks and preferences
+- 🤖 Natural language task management
+- 🧠 Intelligent task categorization
+- ⏰ Deadline tracking
+- ✅ Task status updates
+- 👤 User profile management
+- 💾 Persistent storage of tasks and preferences
 
-## Prerequisites
+## 🔧 Prerequisites
 
-- Python 3.12 or higher
-- Poetry (Python package manager)
+- 🐍 Python 3.12 or higher
+- 📦 Poetry (Python package manager)
 
-## Installation
+## 🚀 Installation
 
 1. Clone the repository:
 ```bash
@@ -34,7 +34,7 @@ poetry install
 poetry shell
 ```
 
-## Configuration
+## ⚙️ Configuration
 
 Before running the agent, you need to set up your environment variables. Create a `.env` file in the root directory with the following variables:
 
@@ -42,7 +42,7 @@ Before running the agent, you need to set up your environment variables. Create 
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-## Usage
+## 📖 Usage
 
 1. Start the agent:
 ```bash
@@ -50,32 +50,32 @@ python todo_agent.py
 ```
 
 2. Interact with the agent using natural language. Examples:
-   - "Add a task to buy groceries tomorrow"
-   - "What are my pending tasks?"
-   - "Mark the grocery shopping task as complete"
-   - "Update my profile with my location"
+   - "Add a task to buy groceries tomorrow" 🛒
+   - "What are my pending tasks?" 📋
+   - "Mark the grocery shopping task as complete" ✅
+   - "Update my profile with my location" 📍
 
-## Project Structure
+## 📁 Project Structure
 
 - `todo_agent.py`: Main application file
 - `configuration.py`: Configuration settings
 - `pyproject.toml`: Poetry dependency management
 - `poetry.lock`: Locked dependencies versions
 
-## Dependencies
+## 📚 Dependencies
 
 The project uses the following main dependencies:
-- langgraph
-- langchain-core
-- langchain-community
-- trustcall
-- langchain-openai
-- langsmith
-- langchain-anthropic
+- 🔄 langgraph
+- 🔗 langchain-core
+- 🌐 langchain-community
+- 🔒 trustcall
+- 🤖 langchain-openai
+- 📊 langsmith
+- 🧠 langchain-anthropic
 
 All dependencies are managed through Poetry and specified in `pyproject.toml`.
 
-## Contributing
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -83,6 +83,6 @@ All dependencies are managed through Poetry and specified in `pyproject.toml`.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
